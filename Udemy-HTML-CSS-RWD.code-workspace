@@ -1,13 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "../../../../GitRepositories/Udemy-HTML-CSS-RWD"
-		},
-		{
-			"path": "../../../../GitRepositories/TEST"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Udemy-HTML-CSS-RWD"
-	}
+  "folders": [
+    {
+      "path": "Udemy-HTML-CSS-RWD"
+    },
+    {
+      "path": "TEST"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Udemy-HTML-CSS-RWD"
+  }
 }
