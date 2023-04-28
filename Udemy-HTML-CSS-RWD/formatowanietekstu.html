@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>MMC School</title>
+</head>
+
+<body>
+
+    <!-- Używamy wtedy kiedy chcemy coś usunąć ale jednocześnie zostawić na stronie -->
+    <del>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</del>
+
+    <br>
+
+    <!-- Możemy oznaczyć za pomocą tego tagu nieaktualną treść -->
+    <s>Lorem ipsum dolor sit amet consectetur adipisicing elit.</s>
+
+    <br>
+    <br>
+
+    <!-- Stary tag, gdy stylizowało się jeszczę strone w html,u.
+    Nie powinno się go używać! Raczej używa się do tego CSS,a -->
+    <b>Lorem ipsum dolor sit amet.</b>
+    <br>
+
+    <!-- Pogrubia tekst tak jak tag b, ALE PODNOSI RÓWNIEŻ
+    WARTOŚĆ SEMANTYCZNĄ! Gdyby osoba niewidoma chciała
+    za pomocą czytnika zczytać te informacje, przez
+    wartość semantyczną będzie w stanie-->
+    <strong>Lorem ipsum dolor sit amet.</strong>
+
+    <br>
+    <br>
+
+    <!-- Podobnie jak B, używało się kiedyś, teraz jest od tego CSS
+    jest to niepraktyczne, można gdzieś zauważyć ale ogólnie nie
+    używać! -->
+    <i>Lorem ipsum dolor sit amet consectetur adipisicing.</i>
+
+    <!-- To samo co w Strong, krzywi tekst przy tym dodając wartość
+    semantyczną, ogólnie jeśli chcemy jakąś treść podkreślić aby również
+    była user friendly dla np. niewidomych, używamy tego. -->
+    <em>Lorem, ipsum dolor sit amet consectetur adipisicing.</em>
+
+    <br>
+    <br>
+
+    <!-- Podobnie jak B, używało się kiedyś, teraz jest od tego CSS
+    jest to niepraktyczne, można gdzieś zauważyć ale ogólnie nie
+    używać! -->
+    <u>Lorem ipsum dolor sit amet.</u>
+
+    <!-- strong, em - semantyka
+    b, u ,i - CSS -->
+
+    <br>
+    <br>
+
+    <!-- Mark nie jest w ogóle odczytywany przez czytniki ekranu co wnioskuje o tym,
+    że nie podnosi wartości semantycznej! -->
+    <p>Lorem, ipsum <mark>dolor sit amet consectetur</mark> adipisicing elit.</p>
+
+    <br>
+
+    <!-- Indeks górny (sup) -->
+    <p>2 <sup>2</sup> = 4</p>
+
+    <!-- Indeks dolny (sub) -->
+    <p>H<sub>2</sub>0</p>
+
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <br>
+
+    <!-- Normalnie ignorowane są białe znaki, za pomoca (pre) możemy to zniwelować, aby
+    białe znaki były widoczne. -->
+
+    <pre>Lorem          ipsum dolor sit        
+        amet consectetur adipisicing elit.
+    </pre>
+
+    <br>
+
+    <!-- Lub skorzystać z (&nbsp;) tak jak widać poniżej. -->
+
+    <p>Lorem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ipsum dolor sit amet consectetur.</p>
+
+</body>
+
+</html>
