@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MMC School</title>
+
+    <!-- Przeglądarka czyta kod od góry do dołu, czyli to co jest na dole nadpisuje akcje
+    które znajdują się na górze, w takim przypadku metatag link nadpisany jest przez
+    tag <style></style> -->
+
+    <style>
+
+        p {
+            font-size: 50px;
+            color: blueviolet;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Gdzie umieszczać css? 
+    1.W zewnętrznych plikach .css 
+    2. W tagach <style></style>
+    3. Liniowo -->
+
+    <!-- Style liniowe zawsze nadpisza ustawienia z plików css czy też tagów style. -->
+
+    <p style="color: gold;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p style="color: lime;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p style="color: tomato;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+    <!-- Styli liniowych zazwyczaj unikamy. -->
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+</body>
+
+</html>

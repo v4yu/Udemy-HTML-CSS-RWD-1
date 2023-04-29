@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 80px;
+	font-size: 36px;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+    color: white;
+}
+
+ div {
+    color: blue;
+    width: 300px;
+    height: 300px;
+    /* Important to flaga która sygnalizuje, że ten styl jest najważniejszy, nawet ważniejszy
+    od inline,a! Important zazwyczaj usiłujemy się unikać, zazwyczaj traktujemy jako koło
+    ratunkowe.*/
+    background-color: gold !important;
+}
+
+ 
