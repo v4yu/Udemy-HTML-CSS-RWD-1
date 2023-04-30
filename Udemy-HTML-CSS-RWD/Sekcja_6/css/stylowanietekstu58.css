@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px;
+	font-size: 36px;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	color: white;
+	overflow: hidden;
+}
+
+p {
+	color: gold;
+	text-align: center;
+	text-align: left;
+	text-align: right;
+	text-align: justify;
+	text-decoration: overline;
+	text-decoration: underline;
+	text-decoration: line-through;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.small {
+	color: aquamarine;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+.big {
+	color: blueviolet;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.text {
+	color: coral;
+	text-decoration: none;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	line-height: 60px;
+}
+
+div {
+	background-color: royalblue;
+	height: 300px;
+}
+
+.test {
+	text-align: center;
+	line-height: 300px;
+    text-shadow: 5px 5px 5px #000;
+}

@@ -1,0 +1,26 @@
+* {
+	background-color: #333;
+	color: #fff;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+	font-size: 36px;
+}
+
+.sample {
+	width: 800px;
+	border-radius: 25px;
+	margin: auto;
+	display: flex;
+}
+
+.pColored {
+	color: lime;
+}
+
+.spanColored {
+	color: tomato;
+    text-decoration: underline;
+}
+
