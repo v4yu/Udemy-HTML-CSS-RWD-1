@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/specyficznosc.css">
+    <script src="https://kit.fontawesome.com/af1e671727.js" crossorigin="anonymous"></script>
+    <title>MMC School</title>
+
+</head>
+
+
+<body>
+    <style>
+        /* Ranking ważności jeżeli chodzi o specyficznosc
+        INLINE 1000PKT > ID 100PKT > KLASA 10PKT > TAG HTML 1PKT */
+
+        #test {
+            background-color: tomato;
+        }
+
+        .square {
+            background-color: lime;
+        }
+
+        /* 1pkt */
+        div {
+            width: 600px;
+            height: 600px;
+            background-color: gold;
+        }
+
+        /* 2pkt */
+        section div {
+            background-color: tomato;
+        }
+
+        /* 3pkt */
+        body section div {
+            background-color: rebeccapurple;
+        }
+        
+    </style>
+
+    <section>
+        <div class="square" id="test" style="background-color: royalblue;"></div>
+    </section>
+
+</body>
+
+</html>

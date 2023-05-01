@@ -11,8 +11,8 @@ body {
 .sample {
 	width: 800px;
 	border-radius: 25px;
-	margin: auto;
-	display: flex;
+	margin: 0 auto;
+	display: block;
 }
 
 .pColored {
