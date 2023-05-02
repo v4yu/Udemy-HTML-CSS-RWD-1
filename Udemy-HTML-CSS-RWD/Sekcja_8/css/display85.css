@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+}
+
+div {
+    display: block;
+    background-color: lime;
+    color: black;
+}
+
+p {
+    display: block;
+
+    display: inline-block;
+
+    width: 300px;
+    height: 100px;
+
+    margin: 30px 0;
+    background-color: gold;
+    color: black;
+}
+
+span {
+    display: inline;
+    display: block;
+    height: 200px;
+
+    /* Nie ma możliwości ustawienia wymiarów elementu liniowego */
+
+    /* width: 5005050505px;
+    height: 23984023849023px; */
+
+    background-color: royalblue;
+}
+
+img {
+    /* Wyjątkowy element liniowy, ponieważ możemy pracować na jego wymiarach */
+    width: 600px;
+}

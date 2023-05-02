@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	color: black;
+	font-size: 36px;
+}
+
+.square {
+	background-color: lime;
+	width: 600px;
+	height: 300px;
+	margin: 40px;
+	padding: 20px;
+
+	/* border: 20px solid royalblue;
+
+    border: 20px dashed royalblue;
+
+    border: 20px dotted royalblue; */
+
+	border-top: 20px solid royalblue;
+	border-left: 10px dotted red;
+	border-radius: 50px;
+}

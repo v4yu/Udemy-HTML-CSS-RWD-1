@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	color: black;
+	font-size: 36px;
+}
+
+.square {
+	background-color: teal;
+	width: 600px;
+	height: 300px;
+	margin: 40px;
+	padding: 20px;
+}
+
+a {
+	color: royalblue;
+	text-decoration: none;
+}
+
+/* Dwukropek w CSS oznacza pseudoklase */
+
+/* Te pseudoklasy musza być zapisane w takiej kolejności jeśli ich używamy! */
+
+a:link {
+	color: gold;
+}
+
+a:visited {
+	color: orange;
+}
+
+a:hover {
+	color: lime;
+}
+
+a:active {
+    background-color: darkgreen;
+}

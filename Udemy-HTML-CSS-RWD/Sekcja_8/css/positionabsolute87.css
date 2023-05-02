@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+main {
+	/* Pozycjonujemy się względem rodzica, gdyby position było static to wtedy nie */
+	position: relative;
+	margin-top: 200px;
+}
+
+div {
+	/* Ten trik działa tylko i wyłącznie na elementach blokowych! */
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
+	border: 3px solid black;
+}
+
+.red {
+	margin-top: 200px;
+	background-color: tomato;
+}
+
+.green {
+	/* Ten trik działa tylko i wyłącznie na elementach blokowych! */
+	margin: 20px auto;
+	background-color: greenyellow;
+	bottom: 0;
+	right: 0;
+
+	/* Manipuluje również strukturą strony, Position relative tego nie robi */
+	position: relative;
+
+	top: 0;
+	right: 0;
+}
+
+.blue {
+	background-color: royalblue;
+}
+
+.gold {
+	position: absolute;
+	margin: 0;
+	width: 120px;
+	height: 120px;
+	background-color: gold;
+	top: 120px;
+	left: 120px;
+    z-index: 1;
+}

@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	color: black;
+	font-size: 36px;
+}
+
+.square {
+	background-color: lime;
+	width: 300px;
+	height: 300px;
+	margin: 40px;
+	padding: 20px;
+
+	overflow: visible;
+
+	/* Overflow hidden ucina nam tekst który wychodzi poza div,a o wartości w300 h300 */
+	overflow: hidden;
+
+	overflow: auto;
+
+    overflow: scroll;
+}
