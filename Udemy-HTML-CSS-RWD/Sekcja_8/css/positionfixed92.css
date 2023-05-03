@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+	text-transform: uppercase;
+
+    height: 200vh;
+}
+
+div {
+	/* Ten trik działa tylko i wyłącznie na elementach blokowych! */
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
+	border: 3px solid black;
+}
+
+.red {
+	margin-top: 200px;
+	background-color: tomato;
+}
+
+.green {
+    /* Z position fixed korzystamy np przy nawigacji. */
+    position: fixed;
+	background-color: greenyellow;
+    position: fixed;
+    top: 0;
+}
+
+.blue {
+	background-color: royalblue;
+}
+
+.gold {
+	position: absolute;
+	margin: 0;
+	width: 120px;
+	height: 120px;
+	background-color: gold;
+	top: 120px;
+	left: 120px;
+    z-index: 1;
+}

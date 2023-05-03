@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #333;
+	font-size: 36px;
+	color: #fff;
+	position: relative;
+}
+
+.btn {
+	font-family: 'Nunito';
+	width: 120px;
+	position: absolute;
+	top: 50px;
+	transform: translateX(-50%);
+	padding: 10px 30px;
+	background-color: transparent;
+	color: #fff;
+	font-weight: bold;
+	border: #fff solid 3px;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+
+.zoom {
+	left: 24%;
+}
+
+.move {
+	left: 48%;
+}
+
+.color {
+	left: 72%;
+}
+
+.square {
+	position: absolute;
+	top: 150px;
+	width: 100px;
+	height: 100px;
+	border-radius: 25px;
+	transform: translateX(-50%);
+}
+
+.blue {
+	left: 24%;
+	background-color: #0077ff;
+	box-shadow: 0 0 15px #0077ff;
+	border: 2px solid #0051ad;
+}
+
+.red {
+	left: 48%;
+	background-color: #f41e1d;
+	box-shadow: 0 0 15px #f41e1d;
+	border: 2px solid #a31715;
+}
+
+.green {
+	left: 72%;
+	background-color: #00fe0b;
+	box-shadow: 0 0 15px #00fe0b;
+	border: 2px solid #04b00a;
+}
+
+.zoom:hover ~ .square {
+	width: 200px;
+	height: 200px;
+	transition: 0.5s;
+}
+
+.move:hover ~ .square {
+	top: 400px;
+	transition: 0.5s;
+}
+
+.color:hover ~ .square {
+	background-color: black;
+	box-shadow: 0 0 15px black;
+	border: 2px solid white;
+	transition: 0.5s;
+}
