@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #333;
+	height: 100vh;
+}
+
+.square {
+	height: 300px;
+	width: 300px;
+	background-color: gold;
+}
+
+@media (min-width: 800px) {
+	.square {
+		background-color: royalblue;
+	}
+
+    body {    
+        background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    }
+}
+
+@media (min-width: 1000px) {
+	.square {
+		background-color: lime;
+	}
+}
+
+@media (min-width: 850px) and (max-width:1250px) {
+	.square {
+		width: 450px;
+	}
+}
