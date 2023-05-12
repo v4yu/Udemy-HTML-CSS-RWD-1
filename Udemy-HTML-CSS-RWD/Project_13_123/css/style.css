@@ -94,7 +94,7 @@ footer {
 	margin: 0 5px;
 	color: #ddd;
 	font-size: 30px;
-	transition: color .3s;
+	transition: color 0.3s;
 }
 
 .icon-box a:hover {
@@ -154,6 +154,44 @@ main h2 {
 	bottom: 0;
 	height: 45%;
 	width: 100%;
-	background-color: rgb(0,0,0,.8);
-	
+	background-color: rgb(0, 0, 0, 0.8);
+}
+
+/* Usługi */
+.services-list {
+	margin: 0 auto;
+	width: 200px;
+}
+
+/* Cennik */
+.price-table {
+	margin: 0 auto;
+	border: 3px solid;
+	border-radius: 4px;
+	width: 50%;
+	height: 50px;
+}
+
+.price-table tr,
+.price-table th {
+	width: 50px;
+	height: 50px;
+	border: 3px solid;
+}
+
+.price-table td {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border: 3px solid;
+}
+
+.contact-info {
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 3px;
+}
+
+.contact-info .fa-solid {
+	margin-right: 20px;
 }
