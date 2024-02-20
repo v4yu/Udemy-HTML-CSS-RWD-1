@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 50px;
+	font-family: 'Montserrat', serif;
+	color: #fff;
+	background-color: #333;
+	font-size: 36px;
+}
+
+div p {
+	color: tomato;
+}
+
+.child > p {
+	font-weight: bold;
+	text-decoration: line-through;
+}
+
+#test ~ div {
+	background-color: #646cfd;
+}
+
+main + p {
+	text-transform: uppercase;
+}
