@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', serif;
+	color: #fff;
+	background-color: #333;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+div {
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
+	border: 3px solid black;
+}
+
+.red {
+	position: relative;
+	margin-top: 200px;
+	background-color: tomato;
+	z-index: 2;
+}
+
+.blue {
+	position: relative;
+	top: -200px;
+	left: 250px;
+	margin: 20px auto;
+	background-color: royalblue;
+}
+
+.green {
+	position: relative;
+	top: -420px;
+	left: -300px;
+	background-color: greenyellow;
+}
