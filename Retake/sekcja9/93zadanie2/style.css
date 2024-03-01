@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	font-size: 36px;
+	color: #fff;
+}
+
+button {
+	font-family: 'Nunito', sans-serif;
+	width: 120px;
+	position: absolute;
+	top: 50px;
+	padding: 10px 30px;
+	color: white;
+	font-weight: bold;
+	background-color: transparent;
+	border: solid 3px white;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transform: translateX(-50%);
+	letter-spacing: 2px;
+	transition: 0.3s;
+}
+
+.btn-zoom {
+	left: 25%;
+}
+
+.btn-zoom:hover ~ .square {
+	transform: translateX(-50%) scale(1.4);
+}
+
+.btn-move {
+	left: 50%;
+}
+
+.btn-move:hover ~ .square {
+	transform: translateX(-50%);
+	top: 300px;
+}
+
+.btn-color {
+	left: 75%;
+}
+
+.btn-color:hover ~ .square {
+	background-color: #000000;
+	box-shadow: 0 0 15px #000000;
+	border: 2px solid #ffffff;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+.square {
+	position: absolute;
+	top: 150px;
+	transform: translateX(-50%);
+	width: 100px;
+	height: 100px;
+	border-radius: 25px;
+	transition: 0.3s;
+}
+
+.blue {
+	left: 25%;
+	background-color: #0077f8;
+	box-shadow: 0 0 15px #0077f8;
+	border: 2px solid #0154ad;
+}
+
+.red {
+	left: 50%;
+	background-color: #f51f20;
+	box-shadow: 0 0 15px #f51f20;
+	border: 2px solid #a41414;
+}
+
+.green {
+	left: 75%;
+	background-color: #00ff13;
+	box-shadow: 0 0 15px #00ff13;
+	border: 2px solid #00b40c;
+}

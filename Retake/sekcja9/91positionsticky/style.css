@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', serif;
+	color: #fff;
+	background-color: #333;
+	font-size: 36px;
+	text-transform: uppercase;
+	height: 200vh;
+}
+
+div {
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
+	border: 3px solid black;
+}
+
+main {
+	position: relative;
+	margin-top: 200px;
+}
+
+.red {
+	margin-top: 200px;
+	background-color: tomato;
+}
+
+.blue {
+	position: sticky;
+	top: 0;
+	margin: 20px auto;
+	background-color: royalblue;
+}
+
+.green {
+	background-color: greenyellow;
+}
+
+.gold {
+	height: 100px;
+	width: 100px;
+	background-color: gold;
+}
