@@ -131,6 +131,57 @@ main h2 {
 	background-color: rgba(0, 3, 27, 0.6);
 }
 
+.services-list {
+	margin: 5px auto;
+	width: 300px;
+	font-size: 20px;
+}
+
+.services-list li {
+	margin: 5px 0;
+	transition: color 0.2s ease-in-out;
+}
+.services-list li:hover {
+	color: #7c92d5;
+}
+
+.contact-info {
+	position: relative;
+	text-align: center;
+	font-size: 24px;
+}
+
+.contact-info p {
+	transition: color 0.3s ease-in-out;
+}
+
+.contact-info p:hover {
+	color: #7c92d5;
+}
+
+.contact-icon {
+	padding: 5px 10px;
+}
+
+.prices-box {
+	margin: auto;
+	padding: 10px;
+	text-align: left;
+	border: #333 3px solid;
+	border-radius: 10px;
+}
+
+.prices-box th {
+	padding: 10px;
+	border-bottom: #7c92d5 3px solid;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.prices-box td {
+	padding: 10px 30px 10px 10px;
+}
+
 /* Footer */
 
 footer {
