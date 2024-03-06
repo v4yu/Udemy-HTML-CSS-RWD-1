@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #929292;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Nawigacja */
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+	font-size: 0px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	padding: 0 50px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 2px;
+	transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+	color: #2d53c7;
+}
+
+/* Header */
+
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/planet-1702788_1920.jpg');
+	background-size: cover;
+	background-position: 0 50%;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.header-text h1 {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	text-shadow: #7c92d5 0px 0px 30px;
+	letter-spacing: 3px;
+}
+
+.header-text span,
+.header-text p {
+	color: #7c92d5;
+}
+
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 3, 27, 0.4);
+}
