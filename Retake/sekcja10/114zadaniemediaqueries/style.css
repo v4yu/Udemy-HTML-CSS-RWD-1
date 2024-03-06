@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #eec0c6;
+	height: 100vh;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+.square {
+	width: 300px;
+	height: 300px;
+	margin: 300px auto;
+	background-color: gold;
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+@media (width > 500px) {
+	.square {
+		background-color: royalblue;
+	}
+}
+
+@media (width > 700px) {
+	.square {
+		background-color: lime;
+	}
+}
+
+@media (width > 550px) and (width < 850px) {
+	.square {
+		width: 450px;
+	}
+}
+
+@media (width > 850px) {
+	.square {
+		width: 300px;
+	}
+}
+
+@media (width > 800px) {
+	body {
+		background-color: #a4508b;
+		background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+	}
+}
